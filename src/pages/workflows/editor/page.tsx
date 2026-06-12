@@ -569,8 +569,7 @@ function WorkflowEditorInner() {
     return () => window.removeEventListener("resize", check);
   }, []);
 
-  // Suppress unused aiReloadKey lint warning — it triggers child re-renders via key prop if needed
-  void aiReloadKey;
+  // aiReloadKey triggers child re-renders via key prop if needed
 
   // Push to history when nodes/edges change (not from loading or undo/redo)
   const pushHistory = useCallback((newNodes: Node<WorkflowNodeData>[], newEdges: Edge[]) => {

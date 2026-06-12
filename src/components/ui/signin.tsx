@@ -68,7 +68,6 @@ export const SignInButton = forwardRef<HTMLButtonElement, SignInButtonProps>(
         toast.error("Login error", {
           description: error.message,
         });
-        console.error("Login error", error);
       }
     }, [error]);
 
@@ -83,9 +82,8 @@ export const SignInButton = forwardRef<HTMLButtonElement, SignInButtonProps>(
           } else {
             await signinRedirect();
           }
-        } catch (err) {
-          console.error("Authentication error:", err);
-          // Don't prevent the default here as the auth library handles errors
+        } catch {
+          // Auth library handles error display internally
         }
       },
       [isAuthenticated, removeUser, signinRedirect, onClick],

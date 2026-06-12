@@ -1,6 +1,7 @@
 services:
   # ── Frontend (Vite SPA served by Nginx) ──────────────────────────────────
   app:
+    env_file: .env
     build:
       context: .
       dockerfile: Dockerfile

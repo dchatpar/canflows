@@ -1,0 +1,12 @@
+node_modules
+.git
+.gitignore
+*.md
+*.tar.gz
+*.zip
+.env*
+dist
+.github
+docs
+public
+scripts

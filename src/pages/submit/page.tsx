@@ -576,7 +576,7 @@ export default function PublicFormPage() {
       data: JSON.stringify(debouncedValues),
       currentPage,
     }).then(() => setDraftSaved(true)).catch(() => {/* silent */});
-  }, [debouncedValues, currentPage]);
+  }, [debouncedValues, currentPage, formId, draftKey, saveDraftMutation]);
 
   const handleChange = useCallback((fieldId: string, val: FieldValue) => {
     setValues((prev) => ({ ...prev, [fieldId]: val }));

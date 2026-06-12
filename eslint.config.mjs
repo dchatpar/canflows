@@ -26,14 +26,14 @@ export default defineConfig([
         { "ts-ignore": true, "ts-expect-error": true, "ts-nocheck": true },
       ],
       "@typescript-eslint/no-unused-vars": "off",
-      "prefer-const": "off",
+      "prefer-const": "warn",
       "react-refresh/only-export-components": [
         "warn",
         { allowConstantExport: true },
       ],
     },
     languageOptions: {
-      ecmaVersion: 2020,
+      ecmaVersion: "latest",
       globals: globals.browser,
     },
   },

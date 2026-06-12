@@ -359,11 +359,8 @@ function GenerateTab({ tenantId }: { tenantId: Id<"tenants"> }) {
   };
 
   const handlePreview = () => {
-    if (!lastResult) return;
-    const win = window.open();
-    if (win) {
-      win.document.write(`<iframe src="${lastResult.dataUri}" width="100%" height="100%" style="border:none;position:fixed;top:0;left:0;width:100%;height:100%"></iframe>`);
-    }
+    if (!lastResult?.dataUri) return;
+    window.open(lastResult.dataUri, "_blank");
   };
 
   return (

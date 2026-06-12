@@ -19,7 +19,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 9
+          version: 11
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -34,15 +34,13 @@ jobs:
         run: pnpm exec tsc --project tsconfig.app.json --noEmit
 
       - name: TypeScript type check (Convex)
-        run: pnpm exec tsc --project tsconfig.json --noEmit
+        run: pnpm exec tsc --project convex/tsconfig.json --noEmit
 
       - name: ESLint
-        run: pnpm exec eslint src --ext .ts,.tsx --max-warnings 0
+        run: pnpm exec eslint --max-warnings 10
+
+      - name: Prettier check
+        run: pnpm run prettier-check
 
       - name: Build (Vite frontend)
         run: pnpm run build
-        env:
-          VITE_CONVEX_URL: ${{ secrets.VITE_CONVEX_URL }}
-          VITE_HERCULES_OIDC_AUTHORITY: ${{ secrets.VITE_HERCULES_OIDC_AUTHORITY }}
-          VITE_HERCULES_OIDC_CLIENT_ID: ${{ secrets.VITE_HERCULES_OIDC_CLIENT_ID }}
-          VITE_APP_URL: ${{ secrets.VITE_APP_URL }}

@@ -62,7 +62,7 @@ export const listRequests = query({
   },
   handler: async (ctx, args) => {
     await requireUser(ctx);
-    let q = ctx.db
+    const q = ctx.db
       .query("signatureRequests")
       .withIndex("by_tenant", (q) => q.eq("tenantId", args.tenantId));
     const results = await q.order("desc").take(100);

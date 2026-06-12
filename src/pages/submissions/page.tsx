@@ -16,7 +16,6 @@ import {
   CheckCircle2, Clock, XCircle, AlertCircle, RotateCcw, Search,
   FileText, ExternalLink,
 } from "lucide-react";
-import { useNavigate as useNav } from "react-router-dom";
 
 const STATUS_META: Record<string, { label: string; badgeClass: string; icon: React.ElementType }> = {
   submitted:    { label: "Submitted",     badgeClass: "bg-blue-100 text-blue-800 border-blue-200",     icon: Clock },
@@ -48,7 +47,7 @@ type Submission = {
 };
 
 function SubmissionRow({ sub }: { sub: Submission }) {
-  const navigate = useNav();
+  const navigate = useNavigate();
   return (
     <div className="flex items-center gap-4 rounded-xl border border-border bg-background p-4 hover:border-primary/30 transition-all hover:shadow-sm">
       <div className="flex size-9 shrink-0 items-center justify-center rounded-lg bg-primary/10">

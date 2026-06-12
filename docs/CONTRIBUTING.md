@@ -10,7 +10,7 @@ See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 ### Reporting Bugs
 
-1. Search [existing issues](https://github.com/canflow-ai/canflow/issues) first.
+1. Search [existing issues](https://github.com/dchatpar/canflows/issues) first.
 2. Open a new issue using the **Bug Report** template.
 3. Include steps to reproduce, expected vs. actual behaviour, and environment details.
 
@@ -27,7 +27,7 @@ cd canflow && pnpm install
 git checkout -b feat/your-feature-name
 
 # 3. Make changes, then verify
-pnpm run typecheck
+pnpm exec tsc --noEmit
 pnpm run lint
 pnpm run build
 

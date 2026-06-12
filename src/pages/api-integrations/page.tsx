@@ -544,7 +544,14 @@ function ApiDocsTab() {
           <h2 className="text-lg font-semibold">API Documentation</h2>
           <p className="text-sm text-muted-foreground">REST API reference with code examples</p>
         </div>
-        <Button variant="outline" onClick={() => window.open("#", "_blank")}>
+        <Button variant="outline" onClick={() => {
+          const url = import.meta.env.VITE_CONVEX_URL;
+          if (url) {
+            window.open(`${url}/api/v1/openapi.json`, "_blank");
+          } else {
+            toast.error("Set VITE_CONVEX_URL in .env.local to view the API spec");
+          }
+        }}>
           <ExternalLink className="h-4 w-4 mr-2" /> Full OpenAPI Spec
         </Button>
       </div>

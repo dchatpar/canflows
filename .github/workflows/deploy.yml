@@ -19,7 +19,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 9
+          version: 11
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -48,16 +48,15 @@ jobs:
           VITE_HERCULES_OIDC_CLIENT_ID: ${{ secrets.VITE_HERCULES_OIDC_CLIENT_ID }}
           VITE_APP_URL: ${{ secrets.VITE_APP_URL }}
 
-      # ── Upload dist/ to your hosting provider ───────────────────────────────
+      # ── Deploy frontend ──────────────────────────────────────────────────────
       # Uncomment and configure one of the following deployment targets:
-
+      #
       # Option A: Deploy to a Linux server via rsync
       # - name: Deploy to server
-      #   run: |
-      #     rsync -avz --delete dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/canflow/
+      #   run: rsync -avz --delete dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/canflow/
       #   env:
       #     SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-
+      #
       # Option B: Deploy to AWS S3 + CloudFront
       # - name: Deploy to S3
       #   run: aws s3 sync dist/ s3://${{ secrets.S3_BUCKET }} --delete
@@ -67,9 +66,6 @@ jobs:
       #     AWS_REGION: ca-central-1
       # - name: Invalidate CloudFront
       #   run: aws cloudfront create-invalidation --distribution-id ${{ secrets.CF_DISTRIBUTION_ID }} --paths "/*"
-
-      # Option C: Hercules Platform (click Publish in the App Builder)
-      # No CI/CD required — Hercules handles deployment automatically.
 
       - name: Deployment complete
         run: echo "Deployment finished at $(date -u)"

@@ -21,7 +21,7 @@ canflows.ca is a production-ready, AI-first forms and workflow automation platfo
 
 ## Features
 
-### Platform Modules (13)
+### Platform Modules (14)
 
 | Module | Description |
 |--------|-------------|
@@ -73,27 +73,27 @@ canflows.ca is a production-ready, AI-first forms and workflow automation platfo
 
 ### Prerequisites
 - Node.js 22+
-- pnpm 9+
+- pnpm 11+
 - A Convex account (free at convex.dev)
 
 ### Local Development
 
 ```bash
-git clone https://github.com/canflow-ai/canflow.git
-cd canflow
+git clone https://github.com/dchatpar/canflows.git
+cd canflows
 pnpm install
 cp .env.example .env.local
 # Fill in .env.local (see docs/ENVIRONMENT.md)
 pnpm dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173).
+Open [http://localhost:3000](http://localhost:3000).
 
 ### Docker (Self-Hosted)
 
 ```bash
-git clone https://github.com/canflow-ai/canflow.git
-cd canflow
+git clone https://github.com/dchatpar/canflows.git
+cd canflows
 cp .env.example .env
 # Edit .env with production values
 docker compose up --build -d
@@ -108,7 +108,7 @@ App available at `http://localhost:3000`.
 | Document | Description |
 |----------|-------------|
 | [docs/ENVIRONMENT.md](ENVIRONMENT.md) | Environment variable reference |
-| [docs/DEPLOYMENT.md](DEPLOYMENT.md) | Self-hosted deployment guide |
+| [docs/DEPLOYMENT.md](DEPLOYMENT.md) | Deployment & production configuration guide |
 | [docs/CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
 | [docs/SECURITY.md](SECURITY.md) | Vulnerability disclosure policy |
 | [docs/CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community standards |

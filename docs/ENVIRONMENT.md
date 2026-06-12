@@ -9,17 +9,21 @@ See `.env.example` in the repository root for a template with all variables docu
 | `VITE_CONVEX_URL` | Convex deployment URL | `https://your-deployment.convex.cloud` |
 | `VITE_HERCULES_OIDC_AUTHORITY` | Hercules Auth OIDC authority URL | `https://your-app-id.hercules-auth.com` |
 | `VITE_HERCULES_OIDC_CLIENT_ID` | Hercules Auth client ID | `your-client-id` |
-| `HERCULES_OIDC_AUTHORITY` | Server-side OIDC authority | Same as VITE_ value |
-| `HERCULES_OIDC_CLIENT_ID` | Server-side client ID | Same as VITE_ value |
-| `HERCULES_API_KEY` | Hercules API key for AI Gateway | `hrc_...` |
 
 ## Optional Variables
 
-| Variable | Description |
-|----------|-------------|
-| `VITE_APP_URL` | Public app URL for QR code / link generation |
-| `OPENAI_API_KEY` | OpenAI key (only if bypassing Hercules AI Gateway) |
-| `ANTHROPIC_API_KEY` | Anthropic key (only if bypassing Hercules AI Gateway) |
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `VITE_APP_URL` | Public app URL for QR / link generation | `http://localhost:3000` |
+| `VITE_HERCULES_OIDC_PROMPT` | OIDC prompt parameter | `select_account` |
+| `VITE_HERCULES_OIDC_RESPONSE_TYPE` | OIDC response type | `code` |
+| `VITE_HERCULES_OIDC_SCOPE` | OIDC scope | `openid profile email offline_access` |
+| `VITE_HERCULES_OIDC_REDIRECT_URI` | OIDC redirect URI | Auto-detected from origin |
+| `HERCULES_OIDC_AUTHORITY` | Server-side OIDC authority | Same as `VITE_` value |
+| `HERCULES_OIDC_CLIENT_ID` | Server-side client ID | Same as `VITE_` value |
+| `HERCULES_API_KEY` | Hercules API key for AI Gateway | — |
+| `OPENAI_API_KEY` | OpenAI key (bypass Hercules AI Gateway) | — |
+| `ANTHROPIC_API_KEY` | Anthropic key (bypass Hercules AI Gateway) | — |
 
 ## Security Notes
 
