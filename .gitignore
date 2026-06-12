@@ -26,5 +26,13 @@ tsconfig.tsbuildinfo
 *.sln
 *.sw?
 
+# Archive files (source artifacts, not code)
+*.tar.gz
+*.zip
+*:Zone.Identifier
+
+# Deployment helper script
+push-to-github.sh
+
 # Environment variables
 .env*
