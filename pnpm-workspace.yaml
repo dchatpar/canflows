@@ -1,6 +1,13 @@
 packages:
   - .
 
+allowBuilds:
+  '@swc/core': true
+  core-js: true
+  esbuild: true
+
+ignorePnpmfile: true
+
 onlyBuiltDependencies:
   - "@swc/core"
   - "@tailwindcss/oxide"
