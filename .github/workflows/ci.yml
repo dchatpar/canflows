@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+
+jobs:
+  ci:
+    name: Lint, Type Check & Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: TypeScript type check (Vite)
+        run: pnpm exec tsc --project tsconfig.app.json --noEmit
+
+      - name: TypeScript type check (Convex)
+        run: pnpm exec tsc --project tsconfig.json --noEmit
+
+      - name: ESLint
+        run: pnpm exec eslint src --ext .ts,.tsx --max-warnings 0
+
+      - name: Build (Vite frontend)
+        run: pnpm run build
+        env:
+          VITE_CONVEX_URL: ${{ secrets.VITE_CONVEX_URL }}
+          VITE_HERCULES_OIDC_AUTHORITY: ${{ secrets.VITE_HERCULES_OIDC_AUTHORITY }}
+          VITE_HERCULES_OIDC_CLIENT_ID: ${{ secrets.VITE_HERCULES_OIDC_CLIENT_ID }}
+          VITE_APP_URL: ${{ secrets.VITE_APP_URL }}

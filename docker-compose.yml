@@ -1,0 +1,40 @@
+services:
+  # ── Frontend (Vite SPA served by Nginx) ──────────────────────────────────
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_CONVEX_URL: ${VITE_CONVEX_URL}
+        VITE_HERCULES_OIDC_AUTHORITY: ${VITE_HERCULES_OIDC_AUTHORITY}
+        VITE_HERCULES_OIDC_CLIENT_ID: ${VITE_HERCULES_OIDC_CLIENT_ID}
+        VITE_APP_URL: ${VITE_APP_URL:-http://localhost:3000}
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    labels:
+      - "com.canflow.service=frontend"
+      - "com.canflow.compliance=pipeda"
+
+  # ── Note on Convex backend ────────────────────────────────────────────────
+  # The Convex backend (database + serverless functions) is a managed cloud
+  # service at convex.dev. It is not self-hostable as a Docker container in
+  # this configuration.
+  #
+  # For air-gapped / on-premise deployments contact: enterprise@canflow.ai
+  #
+  # The Convex deployment is managed separately via:
+  #   pnpm exec convex deploy
+  # or via GitHub Actions (see .github/workflows/deploy.yml).
+
+volumes: {}
+
+networks:
+  default:
+    name: canflow_network
