@@ -1574,7 +1574,7 @@ export default function Index() {
 
           <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/30">
             <div>
-              &copy; {new Date().getFullYear()} AOT Technologies Inc. CanFlow.ai is released under the{" "}
+              &copy; {new Date().getFullYear()} CanFlows CanFlow.ai is released under the{" "}
               <a href="https://github.com/canflow-ai/canflow/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Apache 2.0 License</a>.
               {" "}Incorporated in British Columbia, Canada.
             </div>

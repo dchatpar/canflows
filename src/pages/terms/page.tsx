@@ -9,7 +9,7 @@ const SECTIONS = [
   {
     id: "intro",
     title: "1. Introduction and Acceptance",
-    content: `These Terms of Service ("Terms") govern your access to and use of the CanFlow.ai platform, website, and services (collectively, the "Service") operated by AOT Technologies Inc. ("CanFlow.ai", "we", "us", or "our"), a corporation incorporated under the laws of British Columbia, Canada.
+    content: `These Terms of Service ("Terms") govern your access to and use of the CanFlow.ai platform, website, and services (collectively, the "Service") operated by CanFlows ("CanFlow.ai", "we", "us", or "our"), a corporation incorporated under the laws of British Columbia, Canada.
 
 By accessing or using the Service, you agree to be bound by these Terms. If you do not agree to these Terms, you must not use the Service.
 
@@ -88,11 +88,11 @@ Data Processing Agreement (DPA): Enterprise customers requiring a formal DPA for
   {
     id: "ip",
     title: "7. Intellectual Property",
-    content: `CanFlow.ai Platform: The CanFlow.ai platform source code (Community edition) is licensed under the Apache License 2.0. You may use, copy, modify, and distribute it in accordance with that license. Proprietary Enterprise modules are licensed separately and may not be copied or distributed without a written license from AOT Technologies Inc.
+    content: `CanFlow.ai Platform: The CanFlow.ai platform source code (Community edition) is licensed under the Apache License 2.0. You may use, copy, modify, and distribute it in accordance with that license. Proprietary Enterprise modules are licensed separately and may not be copied or distributed without a written license from CanFlows
 
 Your Content: You retain all intellectual property rights in the forms, workflows, and data you create using the Service. By using the Service, you grant CanFlow.ai a limited, non-exclusive, royalty-free license to host, store, and process your content solely to provide the Service.
 
-Trademarks: "CanFlow.ai" and related logos are trademarks of AOT Technologies Inc. You may not use our trademarks without our prior written consent except as permitted by applicable law.
+Trademarks: "CanFlow.ai" and related logos are trademarks of CanFlows You may not use our trademarks without our prior written consent except as permitted by applicable law.
 
 Feedback: If you provide feedback or suggestions about the Service, we may use that feedback without restriction or compensation to you.`,
   },
@@ -177,7 +177,7 @@ Language: These Terms are written in English. In the event of any conflict betwe
     content: `For questions about these Terms:
 
 Legal & Contracts
-AOT Technologies Inc. (CanFlow.ai)
+CanFlows (CanFlow.ai)
 British Columbia, Canada
 
 Email: legal@canflow.ai
@@ -215,7 +215,7 @@ export default function TermsPage() {
         <div className="mb-8 pb-6 border-b">
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">Terms of Service</h1>
           <p className="text-sm text-muted-foreground">
-            <strong>AOT Technologies Inc. (CanFlow.ai)</strong> · Incorporated in British Columbia, Canada
+            <strong>CanFlows (CanFlow.ai)</strong> · Incorporated in British Columbia, Canada
           </p>
           <p className="text-sm text-muted-foreground mt-1">
             <strong>Last Updated:</strong> June 12, 2026 · <strong>Effective Date:</strong> June 12, 2026
@@ -260,7 +260,7 @@ export default function TermsPage() {
       </main>
 
       <footer className="border-t mt-8 py-4 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} AOT Technologies Inc. · British Columbia, Canada
+        © {new Date().getFullYear()} CanFlows · British Columbia, Canada
       </footer>
     </div>
   );

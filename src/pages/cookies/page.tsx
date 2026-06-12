@@ -33,7 +33,7 @@ export default function CookiesPage() {
         <div className="pb-6 border-b">
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">Cookie Policy</h1>
           <p className="text-sm text-muted-foreground">
-            <strong>AOT Technologies Inc. (CanFlow.ai)</strong> · Incorporated in British Columbia, Canada
+            <strong>CanFlows (CanFlow.ai)</strong> · Incorporated in British Columbia, Canada
           </p>
           <p className="text-sm text-muted-foreground mt-1">
             <strong>Last Updated:</strong> June 12, 2026 · <strong>Effective Date:</strong> June 12, 2026
@@ -187,7 +187,7 @@ export default function CookiesPage() {
       </main>
 
       <footer className="border-t mt-8 py-4 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} AOT Technologies Inc. · British Columbia, Canada
+        © {new Date().getFullYear()} CanFlows · British Columbia, Canada
       </footer>
     </div>
   );

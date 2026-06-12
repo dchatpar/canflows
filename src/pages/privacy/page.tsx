@@ -9,7 +9,7 @@ const SECTIONS = [
   {
     id: "intro",
     title: "1. Introduction",
-    content: `AOT Technologies Inc. ("CanFlow.ai", "we", "us", or "our"), incorporated in British Columbia, Canada, operates the CanFlow.ai platform available at canflow.ai.
+    content: `CanFlows ("CanFlow.ai", "we", "us", or "our"), incorporated in British Columbia, Canada, operates the CanFlow.ai platform available at canflow.ai.
 
 We are committed to protecting your personal information in accordance with the Personal Information Protection Act (British Columbia) (PIPA), the Personal Information Protection and Electronic Documents Act (Canada) (PIPEDA), and Canada's Anti-Spam Legislation (CASL).
 
@@ -203,7 +203,7 @@ Continued use of the platform after the effective date of any update constitutes
     content: `For all privacy-related inquiries, access requests, correction requests, or complaints:
 
 Privacy Officer
-AOT Technologies Inc. (CanFlow.ai)
+CanFlows (CanFlow.ai)
 British Columbia, Canada
 
 Email: privacy@canflow.ai
@@ -242,7 +242,7 @@ export default function PrivacyPage() {
         <div className="mb-8 pb-6 border-b">
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">Privacy Policy</h1>
           <p className="text-sm text-muted-foreground">
-            <strong>AOT Technologies Inc. (CanFlow.ai)</strong> · Incorporated in British Columbia, Canada
+            <strong>CanFlows (CanFlow.ai)</strong> · Incorporated in British Columbia, Canada
           </p>
           <p className="text-sm text-muted-foreground mt-1">
             <strong>Last Updated:</strong> June 12, 2026 · <strong>Effective Date:</strong> June 12, 2026
@@ -287,7 +287,7 @@ export default function PrivacyPage() {
       </main>
 
       <footer className="border-t mt-8 py-4 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} AOT Technologies Inc. · British Columbia, Canada
+        © {new Date().getFullYear()} CanFlows · British Columbia, Canada
       </footer>
     </div>
   );

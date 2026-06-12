@@ -122,6 +122,6 @@ App available at `http://localhost:3000`.
 - [Cookie Policy](https://canflow.ai/cookies)
 - [Trust Centre](https://canflow.ai/trust)
 
-**AOT Technologies Inc.** is incorporated in British Columbia, Canada.
+**CanFlows** is incorporated in British Columbia, Canada.
 
-Licensed under [Apache 2.0](../LICENSE). Copyright 2026 AOT Technologies Inc.
+Licensed under [Apache 2.0](../LICENSE). Copyright 2026 CanFlows

@@ -59,7 +59,7 @@ export default function Logo({ className, showText = true, variant = "default", 
             <span className={cn("text-sm font-semibold", light ? "text-white/50" : "text-gray-400")}>.ai</span>
           </div>
           <span className={cn("text-[9px] tracking-widest uppercase font-semibold", light ? "text-white/50" : "text-gray-400")}>
-            by AOT Technologies
+            by CanFlows
           </span>
         </div>
       )}
