@@ -38,7 +38,7 @@ const FEATURES = [
   {
     icon: Bot,
     title: "AI-Native Form & Workflow Builder",
-    desc: "Describe your process in plain English — CanFlow.ai generates the full form, BPMN 2.0 workflow, field mappings, and routing rules instantly. AI as a workflow step (LLM-in-loop) for intelligent triage and classification.",
+    desc: "Describe your process in plain English — canflows.ca generates the full form, BPMN 2.0 workflow, field mappings, and routing rules instantly. AI as a workflow step (LLM-in-loop) for intelligent triage and classification.",
     color: "from-pink-50 to-fuchsia-50",
     accent: "text-pink-700",
     iconBg: "bg-pink-100",
@@ -460,7 +460,7 @@ function FormFlowDiagram() {
         <div className="size-3 rounded-full bg-red-400" />
         <div className="size-3 rounded-full bg-yellow-400" />
         <div className="size-3 rounded-full bg-green-400" />
-        <span className="ml-2 text-xs text-muted-foreground font-mono">canflow.ai — permit-application.bpmn</span>
+        <span className="ml-2 text-xs text-muted-foreground font-mono">canflows.ca — permit-application.bpmn</span>
       </div>
 
       <div className="flex flex-col gap-3">
@@ -618,24 +618,24 @@ export default function Index() {
 
   const faqs = [
     {
-      q: "Is CanFlow.ai truly open source?",
+      q: "Is canflows.ca truly open source?",
       a: "Yes. The Community edition is 100% open source under Apache 2.0 on GitHub (github.com/canflow-ai/canflow). You can self-host, audit every line of code, fork, and modify the entire codebase. The Enterprise tier adds proprietary modules (physical multi-tenancy, white-labeling, advanced AI) licensed separately.",
     },
     {
-      q: "Does CanFlow.ai meet Government of Canada security requirements?",
-      a: "CanFlow.ai is designed with security controls aligned to Government of Canada ITSG-33 Annex 4A requirements. AES-256 at rest, TLS 1.3 in transit, immutable audit logs, MFA, and RBAC are built in. A formal ITSG-33 assessment is currently in progress. Data residency in Canadian data centres is available on all paid tiers. Contact our team for the full security controls documentation.",
+      q: "Does canflows.ca meet Government of Canada security requirements?",
+      a: "canflows.ca is designed with security controls aligned to Government of Canada ITSG-33 Annex 4A requirements. AES-256 at rest, TLS 1.3 in transit, immutable audit logs, MFA, and RBAC are built in. A formal ITSG-33 assessment is currently in progress. Data residency in Canadian data centres is available on all paid tiers. Contact our team for the full security controls documentation.",
     },
     {
-      q: "Is CanFlow.ai PIPEDA and GDPR compliant?",
-      a: "Yes for PIPEDA — CanFlow.ai includes privacy notices on all public forms, consent management, data minimization, purpose limitation, and a 72-hour breach notification workflow. For GDPR, the platform is designed to support EU resident data handling obligations including data subject rights and Data Processing Agreements (DPA) available for enterprise customers.",
+      q: "Is canflows.ca PIPEDA and GDPR compliant?",
+      a: "Yes for PIPEDA — canflows.ca includes privacy notices on all public forms, consent management, data minimization, purpose limitation, and a 72-hour breach notification workflow. For GDPR, the platform is designed to support EU resident data handling obligations including data subject rights and Data Processing Agreements (DPA) available for enterprise customers.",
     },
     {
       q: "What does 'ITSG-33 aligned' mean vs. certified?",
-      a: "ITSG-33 alignment means CanFlow.ai's security architecture maps to the control objectives in ITSG-33 Annex 4A (AES-256, TLS 1.3, audit logs, MFA, RBAC, Canada data residency). A formal third-party ITSG-33 assessment is currently in progress. We do not claim a completed certification that has not been obtained — all compliance posture is documented transparently in our Trust Centre.",
+      a: "ITSG-33 alignment means canflows.ca's security architecture maps to the control objectives in ITSG-33 Annex 4A (AES-256, TLS 1.3, audit logs, MFA, RBAC, Canada data residency). A formal third-party ITSG-33 assessment is currently in progress. We do not claim a completed certification that has not been obtained — all compliance posture is documented transparently in our Trust Centre.",
     },
     {
       q: "How does open source licensing reduce procurement risk?",
-      a: "Apache 2.0 means zero vendor lock-in. Your procurement team can audit every line of code, self-host behind your firewall with no dependency on CanFlow.ai's cloud, fork the platform if needed, and avoid sole-source procurement justification challenges. Enterprise support and SLAs are available without sacrificing code ownership.",
+      a: "Apache 2.0 means zero vendor lock-in. Your procurement team can audit every line of code, self-host behind your firewall with no dependency on canflows.ca's cloud, fork the platform if needed, and avoid sole-source procurement justification challenges. Enterprise support and SLAs are available without sacrificing code ownership.",
     },
     {
       q: "Can citizens submit forms without creating an account?",
@@ -643,7 +643,7 @@ export default function Index() {
     },
     {
       q: "What deployment options are available?",
-      a: "Community: self-hosted on any infrastructure (Docker, Kubernetes, bare metal, AWS, Azure, GCP). Professional: CanFlow.ai-hosted SaaS or self-hosted. Enterprise: dedicated hosted (physically isolated per tenant), or air-gapped on-premise behind your firewall. All options support Canadian data residency.",
+      a: "Community: self-hosted on any infrastructure (Docker, Kubernetes, bare metal, AWS, Azure, GCP). Professional: canflows.ca-hosted SaaS or self-hosted. Enterprise: dedicated hosted (physically isolated per tenant), or air-gapped on-premise behind your firewall. All options support Canadian data residency.",
     },
   ];
 
@@ -789,7 +789,7 @@ export default function Index() {
                 transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" as const }}
                 className="text-base sm:text-xl text-gray-600 max-w-xl mx-auto lg:mx-0 text-balance leading-relaxed mb-10"
               >
-                CanFlow.ai is the open-source, AI-first forms + workflow + analytics platform built for governments and regulated enterprises. Drag-and-drop form builder, BPMN 2.0 workflows, native eSignature, AI automation — with PIPEDA, WCAG 2.1 AA, and ITSG-33-aligned controls built in.
+                canflows.ca is the open-source, AI-first forms + workflow + analytics platform built for governments and regulated enterprises. Drag-and-drop form builder, BPMN 2.0 workflows, native eSignature, AI automation — with PIPEDA, WCAG 2.1 AA, and ITSG-33-aligned controls built in.
               </motion.p>
 
               <motion.div
@@ -884,7 +884,7 @@ export default function Index() {
             13 modules. Everything government needs.
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto text-balance">
-            CanFlow.ai is the only AI-native, open-source platform with native eSignature, document generation, BPMN 2.0 workflows, and a complete government compliance posture — built in from day one.
+            canflows.ca is the only AI-native, open-source platform with native eSignature, document generation, BPMN 2.0 workflows, and a complete government compliance posture — built in from day one.
           </p>
         </motion.div>
 
@@ -918,7 +918,7 @@ export default function Index() {
           <div className="text-center mb-6">
             <div className="inline-flex items-center gap-2 mb-3">
               <Zap className="size-5 text-red-600" />
-              <h3 className="text-xl font-bold text-[#1a2744]">How CanFlow.ai compares</h3>
+              <h3 className="text-xl font-bold text-[#1a2744]">How canflows.ca compares</h3>
             </div>
             <p className="text-sm text-muted-foreground max-w-xl mx-auto">
               What your procurement team will ask. Evaluated against common competitor categories — general-purpose form builders, workflow-only platforms, and legacy enterprise BPM suites.
@@ -928,7 +928,7 @@ export default function Index() {
           <div className="rounded-2xl border border-border overflow-hidden shadow-sm">
             <div className="grid grid-cols-[1fr_100px_100px_100px_100px] bg-[#1a2744] text-white text-xs font-bold px-6 py-3 gap-2">
               <div>Feature / Requirement</div>
-              <div className="text-center bg-white/10 rounded-lg py-1.5">CanFlow.ai</div>
+              <div className="text-center bg-white/10 rounded-lg py-1.5">canflows.ca</div>
               <div className="text-center opacity-60">General Form Builders</div>
               <div className="text-center opacity-60">Workflow-Only</div>
               <div className="text-center opacity-60">Legacy BPM</div>
@@ -1096,7 +1096,7 @@ export default function Index() {
             className="mt-10 text-center"
           >
             <p className="text-white/40 text-xs max-w-2xl mx-auto">
-              CanFlow.ai does not claim certifications that have not been obtained. "In Progress" indicates an active third-party audit or assessment underway.
+              canflows.ca does not claim certifications that have not been obtained. "In Progress" indicates an active third-party audit or assessment underway.
               All compliance posture is documented transparently in the{" "}
               <a href="/trust" className="underline hover:text-white/70">Trust Centre</a>.
             </p>
@@ -1341,7 +1341,7 @@ export default function Index() {
                 Fully open. Infinitely extensible.
               </h2>
               <p className="text-white/60 text-base mb-6 max-w-xl leading-relaxed">
-                CanFlow.ai's Community edition is free forever under Apache 2.0. Audit every line of code, self-host behind your GC firewall, fork and customize, and contribute back to the community. Zero vendor lock-in — a requirement for responsible government procurement.
+                canflows.ca's Community edition is free forever under Apache 2.0. Audit every line of code, self-host behind your GC firewall, fork and customize, and contribute back to the community. Zero vendor lock-in — a requirement for responsible government procurement.
               </p>
               <div className="flex flex-wrap gap-3 justify-center md:justify-start">
                 {[
@@ -1373,7 +1373,7 @@ export default function Index() {
                 { prompt: "# Start with Docker Compose", color: "text-white/40" },
                 { prompt: "cd canflow && docker compose up", color: "text-emerald-400" },
                 { prompt: "", color: "" },
-                { prompt: "# CanFlow.ai running at:", color: "text-white/40" },
+                { prompt: "# canflows.ca running at:", color: "text-white/40" },
                 { prompt: "http://localhost:3000  ✓", color: "text-white" },
               ].map((line, i) => (
                 <div key={i} className={`leading-7 ${line.color}`}>{line.prompt || "\u00A0"}</div>
@@ -1460,7 +1460,7 @@ export default function Index() {
               Ready to modernize government services?
             </div>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-balance">
-              Start building with CanFlow.ai today.
+              Start building with canflows.ca today.
             </h2>
             <p className="text-red-100 text-lg max-w-lg mx-auto">
               Free forever under Apache 2.0. Enterprise-grade when you need it.
@@ -1574,7 +1574,7 @@ export default function Index() {
 
           <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/30">
             <div>
-              &copy; {new Date().getFullYear()} CanFlows CanFlow.ai is released under the{" "}
+              &copy; {new Date().getFullYear()} CanFlows canflows.ca is released under the{" "}
               <a href="https://github.com/canflow-ai/canflow/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="underline hover:text-white">Apache 2.0 License</a>.
               {" "}Incorporated in British Columbia, Canada.
             </div>

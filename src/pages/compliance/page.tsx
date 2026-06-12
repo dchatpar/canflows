@@ -221,7 +221,7 @@ function ComplianceDashboardInner() {
 
   const handleExportReport = () => {
     const lines = [
-      "CanFlow.ai Compliance Report",
+      "canflows.ca Compliance Report",
       `Generated: ${new Date().toISOString()}`,
       `Framework Filter: ${activeFramework}`,
       "",
@@ -437,7 +437,7 @@ function ComplianceDashboardInner() {
                 icon: Lock,
                 title: "In Transit",
                 detail: "TLS 1.3",
-                sub: "HSTS enforced, HPKP pinned on api.canflow.ai",
+                sub: "HSTS enforced, HPKP pinned on api.canflows.ca",
                 ok: true,
               },
               {

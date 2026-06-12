@@ -27,7 +27,7 @@ services:
   # service at convex.dev. It is not self-hostable as a Docker container in
   # this configuration.
   #
-  # For air-gapped / on-premise deployments contact: enterprise@canflow.ai
+  # For air-gapped / on-premise deployments contact: enterprise@canflows.ca
   #
   # The Convex deployment is managed separately via:
   #   pnpm exec convex deploy

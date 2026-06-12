@@ -1,21 +1,21 @@
-# CanFlow.ai
+# canflows.ca
 
 > AI-native, open-source forms + workflow + analytics platform for governments and regulated enterprises.  
 > Built for compliance. Bilingual EN/FR. PIPEDA compliant. WCAG 2.1 AA (96%).
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](../LICENSE)
-[![WCAG 2.1 AA](https://img.shields.io/badge/WCAG%202.1-AA%2096%25-green)](https://canflow.ai/trust)
-[![PIPEDA](https://img.shields.io/badge/PIPEDA-Compliant-red)](https://canflow.ai/trust)
-[![SOC 2](https://img.shields.io/badge/SOC%202-In%20Progress-orange)](https://canflow.ai/trust)
+[![WCAG 2.1 AA](https://img.shields.io/badge/WCAG%202.1-AA%2096%25-green)](https://canflows.ca/trust)
+[![PIPEDA](https://img.shields.io/badge/PIPEDA-Compliant-red)](https://canflows.ca/trust)
+[![SOC 2](https://img.shields.io/badge/SOC%202-In%20Progress-orange)](https://canflows.ca/trust)
 
 ---
 
-## What is CanFlow.ai?
+## What is canflows.ca?
 
-CanFlow.ai is a production-ready, AI-first forms and workflow automation platform designed specifically for Government of Canada departments, provincial/municipal governments, and regulated enterprises (healthcare, finance, education).
+canflows.ca is a production-ready, AI-first forms and workflow automation platform designed specifically for Government of Canada departments, provincial/municipal governments, and regulated enterprises (healthcare, finance, education).
 
-**Live demo:** [canflow.ai](https://canflow.ai)  
-**Trust Centre:** [canflow.ai/trust](https://canflow.ai/trust)
+**Live demo:** [canflows.ca](https://canflows.ca)  
+**Trust Centre:** [canflows.ca/trust](https://canflows.ca/trust)
 
 ---
 
@@ -117,10 +117,10 @@ App available at `http://localhost:3000`.
 
 ## Legal
 
-- [Privacy Policy](https://canflow.ai/privacy) — PIPA BC + PIPEDA + CASL
-- [Terms of Service](https://canflow.ai/terms) — BC/Canada governing law
-- [Cookie Policy](https://canflow.ai/cookies)
-- [Trust Centre](https://canflow.ai/trust)
+- [Privacy Policy](https://canflows.ca/privacy) — PIPA BC + PIPEDA + CASL
+- [Terms of Service](https://canflows.ca/terms) — BC/Canada governing law
+- [Cookie Policy](https://canflows.ca/cookies)
+- [Trust Centre](https://canflows.ca/trust)
 
 **CanFlows** is incorporated in British Columbia, Canada.
 

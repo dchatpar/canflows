@@ -15,7 +15,7 @@ export default function CookiesPage() {
         <div className="mx-auto max-w-4xl px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Globe className="size-5" />
-            <span className="font-bold">CanFlow.ai</span>
+            <span className="font-bold">canflows.ca</span>
             <span className="text-white/50">|</span>
             <span className="text-white/80 text-sm">Cookie Policy</span>
           </div>
@@ -33,7 +33,7 @@ export default function CookiesPage() {
         <div className="pb-6 border-b">
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">Cookie Policy</h1>
           <p className="text-sm text-muted-foreground">
-            <strong>CanFlows (CanFlow.ai)</strong> · Incorporated in British Columbia, Canada
+            <strong>CanFlows (canflows.ca)</strong> · Incorporated in British Columbia, Canada
           </p>
           <p className="text-sm text-muted-foreground mt-1">
             <strong>Last Updated:</strong> June 12, 2026 · <strong>Effective Date:</strong> June 12, 2026
@@ -73,8 +73,8 @@ export default function CookiesPage() {
               </thead>
               <tbody>
                 {[
-                  { name: "oidc.user:*", purpose: "Stores your authenticated session (OIDC token)", duration: "Session / 8 hours", provider: "canflow.ai" },
-                  { name: "canflow_lang", purpose: "Remembers your language preference (EN or FR)", duration: "1 year", provider: "canflow.ai" },
+                  { name: "oidc.user:*", purpose: "Stores your authenticated session (OIDC token)", duration: "Session / 8 hours", provider: "canflows.ca" },
+                  { name: "canflow_lang", purpose: "Remembers your language preference (EN or FR)", duration: "1 year", provider: "canflows.ca" },
                   { name: "__cf_bm", purpose: "Bot detection and DDoS protection", duration: "30 minutes", provider: "Cloudflare" },
                 ].map((row) => (
                   <tr key={row.name} className="even:bg-emerald-50/50">
@@ -111,7 +111,7 @@ export default function CookiesPage() {
               </thead>
               <tbody>
                 {[
-                  { name: "_canflow_session", purpose: "Anonymized session analytics (page views, feature usage)", duration: "30 days", provider: "canflow.ai (self-hosted)" },
+                  { name: "_canflow_session", purpose: "Anonymized session analytics (page views, feature usage)", duration: "30 days", provider: "canflows.ca (self-hosted)" },
                 ].map((row) => (
                   <tr key={row.name}>
                     <td className="p-2 border border-blue-200 font-mono">{row.name}</td>
@@ -140,7 +140,7 @@ export default function CookiesPage() {
           <h2 className="text-lg font-bold mb-3">How to Manage Your Cookie Preferences</h2>
           <div className="space-y-3 text-sm text-foreground leading-relaxed">
             <p>
-              <strong>In the CanFlow.ai platform:</strong> Navigate to Accessibility Settings and toggle the "Analytics Cookies" option on or off at any time.
+              <strong>In the canflows.ca platform:</strong> Navigate to Accessibility Settings and toggle the "Analytics Cookies" option on or off at any time.
             </p>
             <p>
               <strong>In your browser:</strong> Most browsers allow you to view and delete cookies, and to block future cookies. Note that blocking essential cookies will prevent you from signing in to the platform. Common browser settings:
@@ -152,7 +152,7 @@ export default function CookiesPage() {
               <li>Edge: Settings → Cookies and site permissions → Manage and delete cookies</li>
             </ul>
             <p>
-              <strong>Contact us:</strong> To make a cookie-related privacy request, email privacy@canflow.ai.
+              <strong>Contact us:</strong> To make a cookie-related privacy request, email privacy@canflows.ca.
             </p>
           </div>
         </section>
@@ -174,7 +174,7 @@ export default function CookiesPage() {
         <section id="contact">
           <h2 className="text-lg font-bold mb-3">Contact</h2>
           <p className="text-sm text-foreground leading-relaxed">
-            Questions about this Cookie Policy or our use of cookies may be directed to our Privacy Officer at: <strong>privacy@canflow.ai</strong>
+            Questions about this Cookie Policy or our use of cookies may be directed to our Privacy Officer at: <strong>privacy@canflows.ca</strong>
           </p>
         </section>
 

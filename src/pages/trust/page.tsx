@@ -68,15 +68,15 @@ const SECURITY_HIGHLIGHTS = [
 const DOCUMENTS = [
   {
     title: "Security Whitepaper",
-    description: "Deep-dive into CanFlow.ai's security architecture, controls, and practices.",
+    description: "Deep-dive into canflows.ca's security architecture, controls, and practices.",
     filename: "canflow-security-whitepaper-2026.txt",
-    content: `CanFlow.ai Security Whitepaper
+    content: `canflows.ca Security Whitepaper
 ==============================
 Version: 2026.1
 Date: June 2026
 
 1. ARCHITECTURE OVERVIEW
-CanFlow.ai is built on a multi-tenant, zero-trust architecture deployed exclusively
+canflows.ca is built on a multi-tenant, zero-trust architecture deployed exclusively
 within Canadian AWS regions (ca-central-1 primary, ca-west-1 DR).
 
 2. ENCRYPTION
@@ -117,14 +117,14 @@ Logs are retained for 7 years and protected against deletion by IAM policy.
 - SOC 2 Type II: Audit in progress, target Q4 2026
 - ITSG-33: Assessment in progress, target Q3 2026
 
-Contact: security@canflow.ai
+Contact: security@canflows.ca
 `,
   },
   {
     title: "Data Processing Agreement (DPA)",
     description: "Standard DPA for enterprise customers subject to GDPR or PIPEDA obligations.",
     filename: "canflow-dpa-2026.txt",
-    content: `CanFlow.ai Data Processing Agreement
+    content: `canflows.ca Data Processing Agreement
 =====================================
 Version: 2026.1
 Date: June 2026
@@ -163,14 +163,14 @@ ARTICLE 7 — DELETION / RETURN
 Upon termination, Processor shall delete or return all Personal Data within 30 days
 unless retention is required by applicable law.
 
-For a signed copy, contact: legal@canflow.ai
+For a signed copy, contact: legal@canflows.ca
 `,
   },
   {
     title: "WCAG 2.1 AA Accessibility Report",
     description: "Latest accessibility audit results — 96% WCAG 2.1 Level AA conformance.",
     filename: "canflow-wcag-report-2026.txt",
-    content: `CanFlow.ai WCAG 2.1 AA Accessibility Report
+    content: `canflows.ca WCAG 2.1 AA Accessibility Report
 ============================================
 Audit Date: June 2026
 Conformance Level: WCAG 2.1 AA
@@ -206,7 +206,7 @@ ROBUST
 KNOWN ISSUES
 - 3 decorative SVGs missing aria-hidden on legacy dashboard widget (low severity, fix scheduled July 2026)
 
-Contact: accessibility@canflow.ai
+Contact: accessibility@canflows.ca
 `,
   },
 ];
@@ -244,7 +244,7 @@ export default function TrustPage() {
         <div className="mx-auto max-w-5xl px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <ShieldCheck className="size-6" />
-            <span className="font-bold text-lg tracking-tight">CanFlow.ai</span>
+            <span className="font-bold text-lg tracking-tight">canflows.ca</span>
             <span className="text-white/60 hidden sm:block">|</span>
             <span className="text-white/80 text-sm hidden sm:block">Trust Centre</span>
           </div>
@@ -266,7 +266,7 @@ export default function TrustPage() {
             Security & Compliance Trust Centre
           </h1>
           <p className="text-muted-foreground max-w-2xl mx-auto text-base">
-            CanFlow.ai is built for Canadian government and enterprise workloads. Here you'll find
+            canflows.ca is built for Canadian government and enterprise workloads. Here you'll find
             our security posture, compliance certifications, downloadable legal documents, and
             contact information for your security team.
           </p>
@@ -337,7 +337,7 @@ export default function TrustPage() {
               </CardHeader>
               <CardContent className="space-y-2">
                 <p className="text-sm text-muted-foreground">
-                  Describes how CanFlow.ai collects, uses, and protects personal information in
+                  Describes how canflows.ca collects, uses, and protects personal information in
                   accordance with PIPEDA and applicable provincial privacy legislation.
                 </p>
                 <p className="text-xs text-muted-foreground">Last updated: May 2026</p>
@@ -355,7 +355,7 @@ export default function TrustPage() {
               </CardHeader>
               <CardContent className="space-y-2">
                 <p className="text-sm text-muted-foreground">
-                  Governs your use of the CanFlow.ai platform, including acceptable use, service
+                  Governs your use of the canflows.ca platform, including acceptable use, service
                   availability commitments, and dispute resolution.
                 </p>
                 <p className="text-xs text-muted-foreground">Last updated: June 2026</p>
@@ -378,7 +378,7 @@ export default function TrustPage() {
               <div className="flex-1">
                 <p className="font-semibold text-amber-800 dark:text-amber-300">Cookie Notice</p>
                 <p className="text-sm text-amber-700 dark:text-amber-400 mt-0.5">
-                  CanFlow.ai uses essential cookies for authentication and session management, and
+                  canflows.ca uses essential cookies for authentication and session management, and
                   optional analytics cookies (disabled by default). You can manage your preferences
                   in the Accessibility settings within the app. No third-party advertising cookies
                   are used.
@@ -397,21 +397,21 @@ export default function TrustPage() {
                 <Mail className="size-5 text-primary" />
                 <div>
                   <p className="font-semibold">Responsible Disclosure</p>
-                  <p className="text-sm text-muted-foreground">security@canflow.ai</p>
+                  <p className="text-sm text-muted-foreground">security@canflows.ca</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="size-5 text-primary" />
                 <div>
                   <p className="font-semibold">Privacy Enquiries</p>
-                  <p className="text-sm text-muted-foreground">privacy@canflow.ai</p>
+                  <p className="text-sm text-muted-foreground">privacy@canflows.ca</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="size-5 text-primary" />
                 <div>
                   <p className="font-semibold">Legal / DPA Requests</p>
-                  <p className="text-sm text-muted-foreground">legal@canflow.ai</p>
+                  <p className="text-sm text-muted-foreground">legal@canflows.ca</p>
                 </div>
               </div>
             </CardContent>

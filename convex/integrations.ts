@@ -137,9 +137,9 @@ export const testIntegration = mutation({
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             event: "test",
-            source: "canflow.ai",
+            source: "canflows.ca",
             timestamp: new Date().toISOString(),
-            message: "Test event from CanFlow.ai",
+            message: "Test event from canflows.ca",
           }),
         });
         if (res.ok) {

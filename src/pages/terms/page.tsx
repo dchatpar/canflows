@@ -9,7 +9,7 @@ const SECTIONS = [
   {
     id: "intro",
     title: "1. Introduction and Acceptance",
-    content: `These Terms of Service ("Terms") govern your access to and use of the CanFlow.ai platform, website, and services (collectively, the "Service") operated by CanFlows ("CanFlow.ai", "we", "us", or "our"), a corporation incorporated under the laws of British Columbia, Canada.
+    content: `These Terms of Service ("Terms") govern your access to and use of the canflows.ca platform, website, and services (collectively, the "Service") operated by CanFlows ("canflows.ca", "we", "us", or "our"), a corporation incorporated under the laws of British Columbia, Canada.
 
 By accessing or using the Service, you agree to be bound by these Terms. If you do not agree to these Terms, you must not use the Service.
 
@@ -28,7 +28,7 @@ If you are accepting these Terms on behalf of a government entity or regulated o
     content: `To access certain features of the Service, you must create an account. You agree to:
 • Provide accurate, current, and complete information during registration
 • Maintain the security of your login credentials
-• Notify us immediately at security@canflow.ai if you suspect unauthorized access to your account
+• Notify us immediately at security@canflows.ca if you suspect unauthorized access to your account
 • Accept responsibility for all activities that occur under your account
 
 We reserve the right to suspend or terminate accounts that violate these Terms, are associated with fraudulent activity, or have been inactive for more than 24 consecutive months after providing reasonable notice.`,
@@ -36,7 +36,7 @@ We reserve the right to suspend or terminate accounts that violate these Terms, 
   {
     id: "service",
     title: "4. Description of Service",
-    content: `CanFlow.ai provides an AI-native forms, workflow, and analytics platform designed for government and regulated enterprise use. The Service includes:
+    content: `canflows.ca provides an AI-native forms, workflow, and analytics platform designed for government and regulated enterprise use. The Service includes:
 
 • Drag-and-drop form builder and AI form generation
 • BPMN 2.0 workflow engine
@@ -75,24 +75,24 @@ We reserve the right to investigate and take appropriate action, including suspe
     title: "6. Data and Privacy",
     content: `Your use of the Service is also governed by our Privacy Policy (/privacy), which is incorporated into these Terms by reference.
 
-As between you and CanFlow.ai:
+As between you and canflows.ca:
 • You retain ownership of all personal information and data you collect through forms deployed on the Service
 • You are the "data controller" under applicable privacy legislation for personal information collected from your form respondents
-• CanFlow.ai acts as a "data processor" or "service provider" when processing personal information on your behalf
-• By using the Service, you authorize CanFlow.ai to process data as described in these Terms and the Privacy Policy
+• canflows.ca acts as a "data processor" or "service provider" when processing personal information on your behalf
+• By using the Service, you authorize canflows.ca to process data as described in these Terms and the Privacy Policy
 
 You are responsible for ensuring you have a lawful basis under PIPA/PIPEDA to collect each type of personal information you collect through the Service, and for providing appropriate privacy notices to your form respondents.
 
-Data Processing Agreement (DPA): Enterprise customers requiring a formal DPA for GDPR or PIPEDA compliance may request one at legal@canflow.ai.`,
+Data Processing Agreement (DPA): Enterprise customers requiring a formal DPA for GDPR or PIPEDA compliance may request one at legal@canflows.ca.`,
   },
   {
     id: "ip",
     title: "7. Intellectual Property",
-    content: `CanFlow.ai Platform: The CanFlow.ai platform source code (Community edition) is licensed under the Apache License 2.0. You may use, copy, modify, and distribute it in accordance with that license. Proprietary Enterprise modules are licensed separately and may not be copied or distributed without a written license from CanFlows
+    content: `canflows.ca Platform: The canflows.ca platform source code (Community edition) is licensed under the Apache License 2.0. You may use, copy, modify, and distribute it in accordance with that license. Proprietary Enterprise modules are licensed separately and may not be copied or distributed without a written license from CanFlows
 
-Your Content: You retain all intellectual property rights in the forms, workflows, and data you create using the Service. By using the Service, you grant CanFlow.ai a limited, non-exclusive, royalty-free license to host, store, and process your content solely to provide the Service.
+Your Content: You retain all intellectual property rights in the forms, workflows, and data you create using the Service. By using the Service, you grant canflows.ca a limited, non-exclusive, royalty-free license to host, store, and process your content solely to provide the Service.
 
-Trademarks: "CanFlow.ai" and related logos are trademarks of CanFlows You may not use our trademarks without our prior written consent except as permitted by applicable law.
+Trademarks: "canflows.ca" and related logos are trademarks of CanFlows You may not use our trademarks without our prior written consent except as permitted by applicable law.
 
 Feedback: If you provide feedback or suggestions about the Service, we may use that feedback without restriction or compensation to you.`,
   },
@@ -126,7 +126,7 @@ We do not warrant that using the Service will ensure your compliance with any sp
     title: "10. Limitation of Liability",
     content: `TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW IN BRITISH COLUMBIA AND CANADA:
 
-IN NO EVENT SHALL CANFLOW.AI, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, GOODWILL, OR BUSINESS INTERRUPTION, ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE SERVICE.
+IN NO EVENT SHALL canflows.ca, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, GOODWILL, OR BUSINESS INTERRUPTION, ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE SERVICE.
 
 OUR TOTAL CUMULATIVE LIABILITY TO YOU FOR ALL CLAIMS ARISING FROM OR RELATED TO THESE TERMS OR THE SERVICE SHALL NOT EXCEED THE GREATER OF (A) THE TOTAL FEES PAID BY YOU TO US IN THE 12 MONTHS PRECEDING THE CLAIM, OR (B) ONE HUNDRED CANADIAN DOLLARS (CAD $100).
 
@@ -135,7 +135,7 @@ NOTHING IN THESE TERMS EXCLUDES OR LIMITS LIABILITY FOR FRAUD, GROSS NEGLIGENCE,
   {
     id: "termination",
     title: "11. Termination",
-    content: `You may stop using the Service at any time. To close your account, contact support@canflow.ai.
+    content: `You may stop using the Service at any time. To close your account, contact support@canflows.ca.
 
 We may suspend or terminate your access to the Service immediately if:
 • You materially breach these Terms and fail to cure the breach within 14 days of written notice
@@ -152,20 +152,20 @@ Upon termination:
     title: "12. Governing Law and Dispute Resolution",
     content: `These Terms are governed by and construed in accordance with the laws of the Province of British Columbia and the applicable federal laws of Canada, without regard to conflict of law principles.
 
-Disputes: You and CanFlow.ai agree to attempt to resolve any dispute informally first. If a dispute cannot be resolved informally within 30 days, either party may initiate proceedings in the courts of British Columbia. Both parties consent to the exclusive jurisdiction of the courts of the Province of British Columbia for all disputes arising from these Terms.
+Disputes: You and canflows.ca agree to attempt to resolve any dispute informally first. If a dispute cannot be resolved informally within 30 days, either party may initiate proceedings in the courts of British Columbia. Both parties consent to the exclusive jurisdiction of the courts of the Province of British Columbia for all disputes arising from these Terms.
 
-Class Action Waiver: To the extent permitted by applicable law, you waive the right to participate in a class action lawsuit or class-wide arbitration against CanFlow.ai.`,
+Class Action Waiver: To the extent permitted by applicable law, you waive the right to participate in a class action lawsuit or class-wide arbitration against canflows.ca.`,
   },
   {
     id: "general",
     title: "13. General Provisions",
-    content: `Entire Agreement: These Terms, together with the Privacy Policy and any applicable Order Form, constitute the entire agreement between you and CanFlow.ai with respect to the Service and supersede all prior agreements.
+    content: `Entire Agreement: These Terms, together with the Privacy Policy and any applicable Order Form, constitute the entire agreement between you and canflows.ca with respect to the Service and supersede all prior agreements.
 
 Severability: If any provision of these Terms is found to be unenforceable, that provision will be modified to the minimum extent necessary to make it enforceable, and the remaining provisions will continue in full force.
 
 Waiver: Our failure to enforce any provision of these Terms shall not be deemed a waiver of that provision.
 
-Notices: Legal notices to CanFlow.ai should be sent to legal@canflow.ai. We may provide notices to you via the email address associated with your account or via in-platform notifications.
+Notices: Legal notices to canflows.ca should be sent to legal@canflows.ca. We may provide notices to you via the email address associated with your account or via in-platform notifications.
 
 Amendments: We may amend these Terms from time to time. We will provide at least 30 days notice of material changes via in-platform notification or email. Continued use of the Service after the effective date constitutes acceptance of the revised Terms.
 
@@ -177,13 +177,13 @@ Language: These Terms are written in English. In the event of any conflict betwe
     content: `For questions about these Terms:
 
 Legal & Contracts
-CanFlows (CanFlow.ai)
+CanFlows (canflows.ca)
 British Columbia, Canada
 
-Email: legal@canflow.ai
-General Support: support@canflow.ai
-Privacy: privacy@canflow.ai
-Security: security@canflow.ai`,
+Email: legal@canflows.ca
+General Support: support@canflows.ca
+Privacy: privacy@canflows.ca
+Security: security@canflows.ca`,
   },
 ];
 
@@ -197,7 +197,7 @@ export default function TermsPage() {
         <div className="mx-auto max-w-4xl px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <FileText className="size-5" />
-            <span className="font-bold">CanFlow.ai</span>
+            <span className="font-bold">canflows.ca</span>
             <span className="text-white/50">|</span>
             <span className="text-white/80 text-sm">Terms of Service</span>
           </div>
@@ -215,7 +215,7 @@ export default function TermsPage() {
         <div className="mb-8 pb-6 border-b">
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">Terms of Service</h1>
           <p className="text-sm text-muted-foreground">
-            <strong>CanFlows (CanFlow.ai)</strong> · Incorporated in British Columbia, Canada
+            <strong>CanFlows (canflows.ca)</strong> · Incorporated in British Columbia, Canada
           </p>
           <p className="text-sm text-muted-foreground mt-1">
             <strong>Last Updated:</strong> June 12, 2026 · <strong>Effective Date:</strong> June 12, 2026

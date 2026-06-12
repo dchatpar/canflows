@@ -84,10 +84,10 @@ export const restOpenApiSpec = httpAction(async (_ctx, _request) => {
   const spec = {
     openapi: "3.0.3",
     info: {
-      title: "CanFlow.ai REST API",
+      title: "canflows.ca REST API",
       version: "1.0.0",
-      description: "REST API for CanFlow.ai — Government-grade forms, workflows, and submissions platform.",
-      contact: { name: "CanFlow.ai Support", url: "https://canflow.ai" },
+      description: "REST API for canflows.ca — Government-grade forms, workflows, and submissions platform.",
+      contact: { name: "canflows.ca Support", url: "https://canflows.ca" },
       license: { name: "Apache 2.0", url: "https://www.apache.org/licenses/LICENSE-2.0" },
     },
     servers: [{ url: "https://<your-deployment>.convex.site/api/v1", description: "Production" }],

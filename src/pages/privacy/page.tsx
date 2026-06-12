@@ -9,23 +9,23 @@ const SECTIONS = [
   {
     id: "intro",
     title: "1. Introduction",
-    content: `CanFlows ("CanFlow.ai", "we", "us", or "our"), incorporated in British Columbia, Canada, operates the CanFlow.ai platform available at canflow.ai.
+    content: `CanFlows ("canflows.ca", "we", "us", or "our"), incorporated in British Columbia, Canada, operates the canflows.ca platform available at canflows.ca.
 
 We are committed to protecting your personal information in accordance with the Personal Information Protection Act (British Columbia) (PIPA), the Personal Information Protection and Electronic Documents Act (Canada) (PIPEDA), and Canada's Anti-Spam Legislation (CASL).
 
 This Privacy Policy explains what personal information we collect, why we collect it, how we use it, and your rights as an individual. By using our platform, you acknowledge the practices described in this Policy.
 
-Questions about this Policy may be directed to our Privacy Officer at: privacy@canflow.ai`,
+Questions about this Policy may be directed to our Privacy Officer at: privacy@canflows.ca`,
   },
   {
     id: "who",
     title: "2. Who This Policy Applies To",
     content: `This Policy applies to:
-• Registered users of the CanFlow.ai platform (staff, administrators, and organizational users)
-• Citizens and members of the public who submit forms published by CanFlow.ai customers
-• Visitors to the canflow.ai website
+• Registered users of the canflows.ca platform (staff, administrators, and organizational users)
+• Citizens and members of the public who submit forms published by canflows.ca customers
+• Visitors to the canflows.ca website
 
-This Policy does not apply to the personal information practices of our customers (organizations that deploy CanFlow.ai). Each customer is a separate data controller responsible for the personal information they collect through their own deployed forms. Customers should maintain their own privacy policies for their end users.`,
+This Policy does not apply to the personal information practices of our customers (organizations that deploy canflows.ca). Each customer is a separate data controller responsible for the personal information they collect through their own deployed forms. Customers should maintain their own privacy policies for their end users.`,
   },
   {
     id: "what",
@@ -39,7 +39,7 @@ Account Information (registered users):
 • Account preferences and settings
 
 Form Submission Data (citizens submitting forms):
-• Any information you voluntarily provide in a form published by a CanFlow.ai customer
+• Any information you voluntarily provide in a form published by a canflows.ca customer
 • Submission reference numbers and timestamps
 • Email address (if provided for status notifications)
 
@@ -62,7 +62,7 @@ We do not collect health information, financial account numbers, Social Insuranc
     title: "4. Why We Collect Personal Information (Purposes)",
     content: `We collect and use personal information only for the following identified purposes:
 
-• To create and manage your account on the CanFlow.ai platform
+• To create and manage your account on the canflows.ca platform
 • To process and route form submissions as directed by the deploying organization
 • To provide status updates and notifications about submissions you have made
 • To detect and prevent fraud, unauthorized access, and security incidents
@@ -90,17 +90,17 @@ Legal Obligation: For maintaining audit logs, breach notification procedures, an
   {
     id: "residency",
     title: "6. Data Residency & Storage",
-    content: `All primary personal information collected through the CanFlow.ai platform is stored exclusively in Canadian AWS regions (ca-central-1 primary, ca-west-1 disaster recovery).
+    content: `All primary personal information collected through the canflows.ca platform is stored exclusively in Canadian AWS regions (ca-central-1 primary, ca-west-1 disaster recovery).
 
 No personal data is replicated, transferred, or stored outside of Canada without your explicit consent or a lawful basis under PIPEDA.
 
 Third-party notification services (such as email delivery providers) may transmit notification metadata (e.g., your email address) to process a message. We select service providers that provide appropriate data protection safeguards and Data Processing Agreements.
 
-Sub-processors used by CanFlow.ai:
+Sub-processors used by canflows.ca:
 • Amazon Web Services Canada (data storage, compute)
 • Convex Inc. (database, configured for Canada-region deployment)
 
-A current list of sub-processors is available on request at privacy@canflow.ai.`,
+A current list of sub-processors is available on request at privacy@canflows.ca.`,
   },
   {
     id: "retention",
@@ -145,13 +145,13 @@ Withdrawal of Consent: Withdraw your consent to collect and use your personal in
 
 Deletion: Request deletion of your personal information, subject to legal retention obligations (see Section 7).
 
-Unsubscribe from Commercial Messages: Opt out of marketing communications at any time by clicking the unsubscribe link in any commercial email or by contacting privacy@canflow.ai. We will honour unsubscribe requests within 10 business days as required by CASL.
+Unsubscribe from Commercial Messages: Opt out of marketing communications at any time by clicking the unsubscribe link in any commercial email or by contacting privacy@canflows.ca. We will honour unsubscribe requests within 10 business days as required by CASL.
 
 Complaint: If you are not satisfied with our response to a privacy concern, you may file a complaint with:
 • Office of the Privacy Commissioner of Canada: www.priv.gc.ca
 • Office of the Information and Privacy Commissioner for BC: www.oipc.bc.ca
 
-To exercise any of these rights, contact our Privacy Officer at: privacy@canflow.ai
+To exercise any of these rights, contact our Privacy Officer at: privacy@canflows.ca
 We will respond within 30 days.`,
   },
   {
@@ -178,14 +178,14 @@ Each CEM we send includes:
 • Our name and contact information
 • A clear and accessible unsubscribe mechanism
 
-To unsubscribe from commercial messages, click the unsubscribe link in any email or contact privacy@canflow.ai. We will process unsubscribe requests within 10 business days.
+To unsubscribe from commercial messages, click the unsubscribe link in any email or contact privacy@canflows.ca. We will process unsubscribe requests within 10 business days.
 
 Transactional messages (e.g., password resets, submission confirmations) are not commercial electronic messages and are not subject to CASL opt-out requirements.`,
   },
   {
     id: "children",
     title: "12. Children's Privacy",
-    content: `CanFlow.ai is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact privacy@canflow.ai and we will take immediate steps to delete that information.`,
+    content: `canflows.ca is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, please contact privacy@canflows.ca and we will take immediate steps to delete that information.`,
   },
   {
     id: "changes",
@@ -203,14 +203,14 @@ Continued use of the platform after the effective date of any update constitutes
     content: `For all privacy-related inquiries, access requests, correction requests, or complaints:
 
 Privacy Officer
-CanFlows (CanFlow.ai)
+CanFlows (canflows.ca)
 British Columbia, Canada
 
-Email: privacy@canflow.ai
+Email: privacy@canflows.ca
 Response time: Within 30 days of receipt
 
-For security vulnerability disclosures: security@canflow.ai
-For legal and DPA requests: legal@canflow.ai`,
+For security vulnerability disclosures: security@canflows.ca
+For legal and DPA requests: legal@canflows.ca`,
   },
 ];
 
@@ -224,7 +224,7 @@ export default function PrivacyPage() {
         <div className="mx-auto max-w-4xl px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <Shield className="size-5" />
-            <span className="font-bold">CanFlow.ai</span>
+            <span className="font-bold">canflows.ca</span>
             <span className="text-white/50">|</span>
             <span className="text-white/80 text-sm">Privacy Policy</span>
           </div>
@@ -242,7 +242,7 @@ export default function PrivacyPage() {
         <div className="mb-8 pb-6 border-b">
           <h1 className="text-3xl font-bold tracking-tight text-foreground mb-2">Privacy Policy</h1>
           <p className="text-sm text-muted-foreground">
-            <strong>CanFlows (CanFlow.ai)</strong> · Incorporated in British Columbia, Canada
+            <strong>CanFlows (canflows.ca)</strong> · Incorporated in British Columbia, Canada
           </p>
           <p className="text-sm text-muted-foreground mt-1">
             <strong>Last Updated:</strong> June 12, 2026 · <strong>Effective Date:</strong> June 12, 2026

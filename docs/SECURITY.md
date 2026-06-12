@@ -4,7 +4,7 @@
 
 **Please do not report security vulnerabilities through public GitHub issues.**
 
-**Email:** security@canflow.ai  
+**Email:** security@canflows.ca  
 **Response:** Acknowledged within 48 hours; assessed within 7 business days.
 
 ### What to Include
@@ -29,7 +29,7 @@ We will not pursue legal action against researchers who report in good faith, do
 
 ## Security Architecture
 
-CanFlow.ai implements:
+canflows.ca implements:
 - AES-256 at rest, TLS 1.3 in transit
 - Immutable audit logs for all privileged operations
 - MFA for staff and admin accounts
@@ -37,7 +37,7 @@ CanFlow.ai implements:
 - Automated dependency vulnerability scanning on every commit
 - Annual third-party penetration testing
 
-Full details: [canflow.ai/trust](https://canflow.ai/trust)
+Full details: [canflows.ca/trust](https://canflows.ca/trust)
 
 ## Supported Versions
 
@@ -49,4 +49,4 @@ Full details: [canflow.ai/trust](https://canflow.ai/trust)
 
 ## PIPEDA Breach Notification
 
-If you discover an active breach, contact security@canflow.ai immediately with "BREACH" in the subject line.
+If you discover an active breach, contact security@canflows.ca immediately with "BREACH" in the subject line.
